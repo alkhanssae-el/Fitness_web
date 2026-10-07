@@ -31,35 +31,23 @@
   </header>
 
   <main>
-    
-  </main>
-
-  <footer class="pied-de-page">
-    <div class="conteneur">
-
-      <div class="pied-haut">
-        <div>
-          <p class="logo logo-clair">Élan Fitness</p>
-          <p class="slogan">Ton énergie, ton rythme.</p>
+    <div class="contact-container">
+      <form action="" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Contactez-nous!</h2>
+          <hr>
         </div>
-
-        <nav aria-label="Navigation du pied de page">
-          <ul class="menu menu-pied">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">À propos</a></li>
-            <li><a href="program.html">Programmes</a></li>
-            <li><a href="contact.html">Contactez-nous</a></li>
-          </ul>
-        </nav>
+        <input type="text" name="lastName" placeholder="Nom" class="contact-input" required>
+        <input type="text" name="firstName" placeholder="Prénom" class="contact-input" required>
+        <input type="email" name="email" placeholder="Adresse mail" class="contact-input" required>
+        <textarea name="message" placeholder="Votre message" class="contact-input" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="contact-right">
+        <img src="/img/support.jpg" width="200" height="200">
       </div>
-
-      <div class="pied-bas">
-        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
-        <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
-      </div>
-
     </div>
-  </footer>
+  </main>
 
 </body>
 </html>
