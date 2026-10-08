@@ -584,14 +584,14 @@ button:focus-visible {
   padding-left: 25px;
   font-weight: 500;
   color: #666;
-  border-radius: 50px;
+  border-radius: 8px;
 }
 
 .contact-left textarea{
   height: 140px;
   width: 400px;
   padding-top: 15px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .contact-input:focus{
@@ -603,14 +603,25 @@ button:focus-visible {
 }
 
 .contact-left button{
-  display: flex;
-  align-items: center;
-  padding: 15px 30px;
+  background-color:#FF6B2C ;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 8px;
   font-size: 16px;
-  color: #666;
-  gap: 10px;
-  border: none;
-  border-radius: 50px;
-  background: linear-gradient(270deg,#666,#FF6B2C);
+  font-weight: 600;
+  text-align: center;
   cursor: pointer;
+  border: none;
 }
+
+.contact-left button:hover{
+  background-color: #F05817;
+}
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
